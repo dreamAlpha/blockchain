@@ -1,0 +1,1629 @@
+{
+  "name": "giga",
+  "normal": {
+    "tags": [
+
+    ]
+  },
+  "default": {
+    "app": {
+      "directory": "C:/apps"
+    },
+    "data": {
+      "directory": "/datadir"
+    },
+    "software": {
+      "multichain": "multichain-windows-1.0.6.zip"
+    },
+    "blockchain": {
+      "name": "mytestchain",
+      "ip": "154.0.164.32",
+      "port": "2679"
+    }
+  },
+  "automatic": {
+    "cpu": {
+      "0": {
+        "cores": 4,
+        "vendor_id": "GenuineIntel",
+        "family": "198",
+        "model": "24067",
+        "stepping": "3",
+        "physical_id": "CPU0",
+        "model_name": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "description": "Intel64 Family 6 Model 94 Stepping 3",
+        "mhz": "2601",
+        "cache_size": "1024 KB"
+      },
+      "total": 8,
+      "cores": 4,
+      "real": 1
+    },
+    "filesystem": {
+      "C:": {
+        "kb_size": 255414235,
+        "kb_available": 141798522,
+        "kb_used": 113615713,
+        "percent_used": 44,
+        "mount": "C:",
+        "fs_type": "ntfs",
+        "volume_name": ""
+      },
+      "D:": {
+        "kb_size": 523235,
+        "kb_available": 507031,
+        "kb_used": 16204,
+        "percent_used": 3,
+        "mount": "D:",
+        "fs_type": "ntfs",
+        "volume_name": ""
+      },
+      "E:": {
+        "kb_size": 0,
+        "kb_available": 0,
+        "kb_used": 0,
+        "percent_used": 0,
+        "mount": "E:",
+        "volume_name": null
+      },
+      "F:": {
+        "kb_size": 1000202039,
+        "kb_available": 973551857,
+        "kb_used": 26650182,
+        "percent_used": 2,
+        "mount": "F:",
+        "fs_type": "ntfs",
+        "volume_name": "New Volume"
+      }
+    },
+    "kernel": {
+      "os_info": {
+        "boot_device": "\\Device\\HarddiskVolume2",
+        "build_number": "17134",
+        "build_type": "Multiprocessor Free",
+        "caption": "Microsoft Windows 10 Pro",
+        "code_set": "1252",
+        "country_code": "1",
+        "csd_version": null,
+        "cs_name": "GIGA",
+        "current_time_zone": 120,
+        "data_execution_prevention_32_bit_applications": true,
+        "data_execution_prevention_available": true,
+        "data_execution_prevention_drivers": true,
+        "data_execution_prevention_support_policy": 2,
+        "debug": false,
+        "description": "",
+        "distributed": false,
+        "encryption_level": 256,
+        "foreground_application_boost": 2,
+        "install_date": "20180618171718.000000+120",
+        "large_system_cache": null,
+        "last_boot_up_time": "20180819104809.498147+120",
+        "local_date_time": "20180819182848.251000+120",
+        "locale": "0409",
+        "manufacturer": "Microsoft Corporation",
+        "max_number_of_processes": -1,
+        "max_process_memory_size": "137438953344",
+        "mui_languages": [
+          "en-US"
+        ],
+        "name": "Microsoft Windows 10 Pro|C:\\WINDOWS|\\Device\\Harddisk0\\Partition4",
+        "number_of_licensed_users": 0,
+        "number_of_processes": 224,
+        "number_of_users": 2,
+        "operating_system_sku": 48,
+        "organization": "",
+        "os_architecture": "64-bit",
+        "os_language": 1033,
+        "os_product_suite": 256,
+        "os_type": 18,
+        "other_type_description": null,
+        "pae_enabled": null,
+        "plus_product_id": null,
+        "plus_version_number": null,
+        "portable_operating_system": false,
+        "primary": true,
+        "product_type": 1,
+        "registered_user": "Windows User",
+        "serial_number": "00330-80100-10002-AA706",
+        "service_pack_major_version": 0,
+        "service_pack_minor_version": 0,
+        "size_stored_in_paging_files": "2490368",
+        "status": "OK",
+        "suite_mask": 272,
+        "system_device": "\\Device\\HarddiskVolume4",
+        "system_directory": "C:\\WINDOWS\\system32",
+        "system_drive": "C:",
+        "total_visible_memory_size": "16658608",
+        "version": "10.0.17134",
+        "windows_directory": "C:\\WINDOWS"
+      },
+      "name": "Microsoft Windows 10 Pro",
+      "release": "10.0.17134",
+      "version": "10.0.17134  Build 17134",
+      "os": "WINNT",
+      "product_type": "Workstation",
+      "server_core": false,
+      "cs_info": {
+        "admin_password_status": 3,
+        "automatic_managed_pagefile": true,
+        "automatic_reset_boot_option": true,
+        "automatic_reset_capability": true,
+        "boot_option_on_limit": null,
+        "boot_option_on_watch_dog": null,
+        "boot_rom_supported": true,
+        "boot_status": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "bootup_state": "Normal boot",
+        "caption": "GIGA",
+        "chassis_bootup_state": 3,
+        "chassis_sku_number": "P17FR5",
+        "current_time_zone": 120,
+        "daylight_in_effect": null,
+        "description": "AT/AT COMPATIBLE",
+        "dns_host_name": "giga",
+        "domain": "WORKGROUP",
+        "domain_role": 0,
+        "enable_daylight_savings_time": true,
+        "front_panel_reset_status": 3,
+        "hypervisor_present": false,
+        "infrared_supported": false,
+        "initial_load_info": null,
+        "install_date": null,
+        "keyboard_password_status": 3,
+        "last_load_info": null,
+        "manufacturer": "GIGABYTE",
+        "model": "P17FR5",
+        "name": "GIGA",
+        "name_format": null,
+        "network_server_mode_enabled": true,
+        "number_of_logical_processors": 8,
+        "number_of_processors": 1,
+        "oem_string_array": [
+          "1558",
+          "OEM String",
+          "Default string",
+          "Default string",
+          "BIOS:1.05.09RGI4"
+        ],
+        "part_of_domain": false,
+        "pause_after_reset": "-1",
+        "pc_system_type": 2,
+        "pc_system_type_ex": 2,
+        "power_management_capabilities": null,
+        "power_management_supported": null,
+        "power_on_password_status": 3,
+        "power_state": 0,
+        "power_supply_state": 3,
+        "primary_owner_contact": null,
+        "primary_owner_name": "Windows User",
+        "reset_capability": 1,
+        "reset_count": -1,
+        "reset_limit": -1,
+        "roles": [
+          "LM_Workstation",
+          "LM_Server",
+          "NT"
+        ],
+        "status": "OK",
+        "support_contact_description": null,
+        "system_family": "Not Applicable                  ",
+        "system_sku_number": "P17FR5",
+        "system_startup_delay": null,
+        "system_startup_options": null,
+        "system_startup_setting": null,
+        "system_type": "x64-based PC",
+        "thermal_state": 3,
+        "total_physical_memory": "17058414592",
+        "user_name": "GIGA\\User",
+        "wake_up_type": 6,
+        "workgroup": "WORKGROUP"
+      },
+      "machine": "x86_64",
+      "system_type": "Mobile"
+    },
+    "memory": {
+      "swap": {
+        "total": "2490368kB",
+        "free": "2488948kB"
+      },
+      "total": "16658608kB",
+      "free": "9679964kB"
+    },
+    "network": {
+      "interfaces": {
+        "0x2": {
+          "configuration": {
+            "ip_address": [
+              "192.168.1.29",
+              "fe80::24a2:622b:cc0e:37f8"
+            ],
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000003] Realtek RTL8723BE Wireless LAN 802.11n PCI-E NIC",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": [
+              "192.168.1.1"
+            ],
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "Realtek RTL8723BE Wireless LAN 802.11n PCI-E NIC",
+            "dhcp_enabled": true,
+            "dhcp_lease_expires": "19700102090531.000000+120",
+            "dhcp_lease_obtained": "19700101090531.000000+120",
+            "dhcp_server": "192.168.1.1",
+            "dns_domain": null,
+            "dns_domain_suffix_search_order": [
+
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "giga",
+            "dns_server_search_order": [
+              "103.86.96.100",
+              "103.86.99.100"
+            ],
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": [
+              0
+            ],
+            "igmp_level": null,
+            "index": 3,
+            "interface_index": 2,
+            "ip_connection_metric": 50,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.255.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "30:52:CB:FB:DA:C0",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "RTWlanE",
+            "setting_id": "{02624047-D5A1-4F29-9D77-048BC6423AD1}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000003] Realtek RTL8723BE Wireless LAN 802.11n PCI-E NIC",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "description": "Realtek RTL8723BE Wireless LAN 802.11n PCI-E NIC",
+            "device_id": "3",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{02624047-D5A1-4F29-9D77-048BC6423AD1}",
+            "index": 3,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 2,
+            "last_error_code": null,
+            "mac_address": "30:52:CB:FB:DA:C0",
+            "manufacturer": "Realtek Semiconductor Corp.",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "Realtek RTL8723BE Wireless LAN 802.11n PCI-E NIC",
+            "net_connection_id": "Wi-Fi",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "PCI\\VEN_10EC&DEV_B723&SUBSYS_B73310EC&REV_00\\4&272AEC3F&0&00E6",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "Realtek RTL8723BE Wireless LAN 802.11n PCI-E NIC",
+            "service_name": "RTWlanE",
+            "speed": "102000000",
+            "status": null,
+            "status_info": null,
+            "system_name": "GIGA",
+            "time_of_last_reset": "20180819104809.498147+120"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "192.168.1.29": {
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "192.168.1.255",
+              "family": "inet"
+            },
+            "fe80::24a2:622b:cc0e:37f8": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "30:52:CB:FB:DA:C0": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "192.168.1.1": "40:16:7e:62:09:00",
+            "192.168.1.8": "b8:97:5a:8e:ac:20",
+            "192.168.1.10": "b8:97:5a:f1:8c:00",
+            "192.168.1.11": "f4:b5:20:04:d8:96",
+            "192.168.1.21": "ac:e2:d3:8c:76:37",
+            "192.168.1.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.251": "01:00:5e:00:00:fb",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "239.255.255.250": "01:00:5e:7f:ff:fa",
+            "255.255.255.255": "ff:ff:ff:ff:ff:ff"
+          },
+          "encapsulation": "Ethernet"
+        },
+        "0x8": {
+          "configuration": {
+            "ip_address": [
+              "192.168.1.18",
+              "fe80::f06c:566d:b6eb:8289"
+            ],
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000017] VirtualBox Host-Only Ethernet Adapter",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": null,
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "VirtualBox Host-Only Ethernet Adapter",
+            "dhcp_enabled": false,
+            "dhcp_lease_expires": null,
+            "dhcp_lease_obtained": null,
+            "dhcp_server": null,
+            "dns_domain": null,
+            "dns_domain_suffix_search_order": [
+
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "giga",
+            "dns_server_search_order": null,
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": null,
+            "igmp_level": null,
+            "index": 17,
+            "interface_index": 8,
+            "ip_connection_metric": 25,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.255.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "0A:00:27:00:00:08",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "VBoxNetAdp",
+            "setting_id": "{59858221-8543-4284-A5B7-B97BF0F0EF89}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000017] VirtualBox Host-Only Ethernet Adapter",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "description": "VirtualBox Host-Only Ethernet Adapter",
+            "device_id": "17",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{59858221-8543-4284-A5B7-B97BF0F0EF89}",
+            "index": 17,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 8,
+            "last_error_code": null,
+            "mac_address": "0A:00:27:00:00:08",
+            "manufacturer": "Oracle Corporation",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "VirtualBox Host-Only Ethernet Adapter",
+            "net_connection_id": "VirtualBox Host-Only Network",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "ROOT\\NET\\0001",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "VirtualBox Host-Only Ethernet Adapter",
+            "service_name": "VBoxNetAdp",
+            "speed": "1000000000",
+            "status": null,
+            "status_info": null,
+            "system_name": "GIGA",
+            "time_of_last_reset": "20180819104809.498147+120"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "192.168.1.18": {
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "192.168.1.255",
+              "family": "inet"
+            },
+            "fe80::f06c:566d:b6eb:8289": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "0A:00:27:00:00:08": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "192.168.1.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.251": "01:00:5e:00:00:fb",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "239.255.255.250": "01:00:5e:7f:ff:fa"
+          },
+          "encapsulation": "Ethernet"
+        },
+        "0x15": {
+          "configuration": {
+            "ip_address": [
+              "172.28.128.1",
+              "fe80::d77:c19d:63b8:a578"
+            ],
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000018] VirtualBox Host-Only Ethernet Adapter",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": null,
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "VirtualBox Host-Only Ethernet Adapter #2",
+            "dhcp_enabled": false,
+            "dhcp_lease_expires": null,
+            "dhcp_lease_obtained": null,
+            "dhcp_server": null,
+            "dns_domain": null,
+            "dns_domain_suffix_search_order": [
+
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "giga",
+            "dns_server_search_order": null,
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": null,
+            "igmp_level": null,
+            "index": 18,
+            "interface_index": 21,
+            "ip_connection_metric": 25,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.255.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "0A:00:27:00:00:15",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "VBoxNetAdp",
+            "setting_id": "{F13AAB1B-9F9A-4510-8CEF-0638837AF300}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000018] VirtualBox Host-Only Ethernet Adapter",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "description": "VirtualBox Host-Only Ethernet Adapter",
+            "device_id": "18",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{F13AAB1B-9F9A-4510-8CEF-0638837AF300}",
+            "index": 18,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 21,
+            "last_error_code": null,
+            "mac_address": "0A:00:27:00:00:15",
+            "manufacturer": "Oracle Corporation",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "VirtualBox Host-Only Ethernet Adapter #2",
+            "net_connection_id": "VirtualBox Host-Only Network #2",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "ROOT\\NET\\0002",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "VirtualBox Host-Only Ethernet Adapter",
+            "service_name": "VBoxNetAdp",
+            "speed": "1000000000",
+            "status": null,
+            "status_info": null,
+            "system_name": "GIGA",
+            "time_of_last_reset": "20180819104809.498147+120"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "172.28.128.1": {
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "172.28.128.255",
+              "family": "inet"
+            },
+            "fe80::d77:c19d:63b8:a578": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "0A:00:27:00:00:15": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "172.28.128.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.251": "01:00:5e:00:00:fb",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "239.255.255.250": "01:00:5e:7f:ff:fa"
+          },
+          "encapsulation": "Ethernet"
+        }
+      },
+      "default_gateway": "192.168.1.1",
+      "default_interface": "0x2"
+    },
+    "counters": {
+      "network": {
+
+      }
+    },
+    "ipaddress": "192.168.1.29",
+    "macaddress": "30:52:CB:FB:DA:C0",
+    "ip6address": "fe80::d77:c19d:63b8:a578",
+    "os": "windows",
+    "os_version": "10.0.17134",
+    "platform": "windows",
+    "platform_version": "10.0.17134",
+    "platform_family": "windows",
+    "uptime_seconds": 27640,
+    "uptime": "7 hours 40 minutes 40 seconds",
+    "virtualization": {
+      "systems": {
+
+      }
+    },
+    "languages": {
+      "go": {
+        "version": "1.10.3"
+      },
+      "java": {
+        "version": "1.8.0_171",
+        "runtime": {
+          "name": "Java(TM) SE Runtime Environment",
+          "build": "1.8.0_171-b11"
+        },
+        "hotspot": {
+          "name": "Java HotSpot(TM) 64-Bit Server VM",
+          "build": "25.171-b11, mixed mode"
+        }
+      },
+      "nodejs": {
+        "version": "8.11.1"
+      },
+      "powershell": {
+        "version": "5.1.17134.228",
+        "ws_man_stack_version": "3.0",
+        "serialization_version": "1.1.0.1",
+        "clr_version": "4.0.30319.42000",
+        "build_version": "10.0.17134.228",
+        "compatible_versions": [
+          "1.0",
+          "2.0",
+          "3.0",
+          "4.0",
+          "5.0",
+          "5.1.17134.228"
+        ],
+        "remoting_protocol_version": "2.3"
+      },
+      "ruby": {
+
+      }
+    },
+    "chef_packages": {
+      "chef": {
+        "version": "14.3.37",
+        "chef_root": "C:/opscode/chef/embedded/lib/ruby/gems/2.5.0/gems/chef-14.3.37-universal-mingw32/lib"
+      },
+      "ohai": {
+        "version": "14.3.0",
+        "ohai_root": "C:/opscode/chef/embedded/lib/ruby/gems/2.5.0/gems/ohai-14.3.0/lib/ohai"
+      }
+    },
+    "dmi": {
+
+    },
+    "cloud": null,
+    "command": {
+
+    },
+    "hostname": "giga",
+    "machinename": "GIGA",
+    "fqdn": "giga",
+    "domain": null,
+    "keys": {
+      "ssh": {
+
+      }
+    },
+    "fips": {
+      "kernel": {
+        "enabled": false
+      }
+    },
+    "ohai_time": 1534696130.757018,
+    "packages": {
+      "Vuze": {
+        "version": "5.7.6.0",
+        "publisher": "Azureus Software, Inc."
+      },
+      "Insyde Airplane Mode HID Mini-Driver": {
+        "version": "1.4.0.3",
+        "publisher": "Insyde Corporation"
+      },
+      "Windows Driver Package - Insyde (AirplaneModeHid) HIDClass  (07/14/2015 1.4.0.3)": {
+        "version": "07/14/2015 1.4.0.3",
+        "publisher": "Insyde"
+      },
+      "Git version 2.16.2": {
+        "version": "2.16.2",
+        "publisher": "The Git Development Community",
+        "installdate": "20180420"
+      },
+      "Notepad++ (64-bit x64)": {
+        "version": "7.5.8",
+        "publisher": "Notepad++ Team"
+      },
+      "Microsoft Office Standard 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Synaptics Pointing Device Driver": {
+        "version": "19.3.4.121",
+        "publisher": "Synaptics Incorporated"
+      },
+      "TAP-NordVPN 9.21.2": {
+        "version": "9.21.2",
+        "publisher": "NordVPN.com"
+      },
+      "Vulkan Run Time Libraries 1.0.61.0": {
+        "version": "1.0.61.0",
+        "publisher": "LunarG, Inc."
+      },
+      "WinRAR 5.50 (64-bit)": {
+        "version": "5.50.0",
+        "publisher": "win.rar GmbH"
+      },
+      "Intel(R) Chipset Device Software": {
+        "version": "10.1.1.13",
+        "publisher": "Intel(R) Corporation"
+      },
+      "Intel(R) Management Engine Components": {
+        "version": "11.0.0.1173",
+        "publisher": "Intel Corporation",
+        "installdate": "20171128"
+      },
+      "Java 8 Update 171 (64-bit)": {
+        "version": "8.0.1710.11",
+        "publisher": "Oracle Corporation",
+        "installdate": "20180620"
+      },
+      "VNC Viewer 6.17.1113": {
+        "version": "6.17.1113.31799",
+        "publisher": "RealVNC Ltd",
+        "installdate": "20180707"
+      },
+      "Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.51106": {
+        "version": "11.0.51106",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20171128"
+      },
+      "Intel(R) ME UninstallLegacy": {
+        "version": "1.0.1.0",
+        "publisher": "Intel Corporation",
+        "installdate": "20171128"
+      },
+      "Intel(R) Rapid Storage Technology": {
+        "version": "14.6.0.1029",
+        "publisher": "Intel Corporation",
+        "installdate": "20171128"
+      },
+      "PuTTY release 0.70 (64-bit)": {
+        "version": "0.70.0.0",
+        "publisher": "Simon Tatham",
+        "installdate": "20180717"
+      },
+      "Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.4148": {
+        "version": "9.0.30729.4148",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20171128"
+      },
+      "Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.51106": {
+        "version": "11.0.51106",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20171128"
+      },
+      "Java SE Development Kit 8 Update 171 (64-bit)": {
+        "version": "8.0.1710.11",
+        "publisher": "Oracle Corporation",
+        "installdate": "20180620"
+      },
+      "Security Update for Microsoft Office 2016 (KB3115135) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB3213650) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB3191924) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Word 2016 (KB4011039) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Security Update for Microsoft Office 2016 (KB4011038) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Definition Update for Microsoft Office 2016 (KB3115407) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB3115276) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB2920684) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB3141457) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB3191928) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Security Update for Microsoft Office 2016 (KB3085538) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB3191923) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Security Update for Microsoft Outlook 2016 (KB4011091) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Security Update for Microsoft Office 2016 (KB3178667) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Visio 2016 (KB4011096) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB3115081) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB4011099) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Security Update for Microsoft Office 2016 (KB3213551) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB3118262) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Excel 2016 (KB4011165) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB3141506) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB2920720) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB3203471) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB2910954) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB3203478) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB3114903) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Security Update for Microsoft Office 2016 (KB3203474) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB3118263) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft OneNote 2016 (KB4011092) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Access 2016 (KB4011032) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB3191929) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB3115281) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB2920712) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB2920724) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB3118264) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Publisher 2016 (KB3178696) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Project 2016 (KB4011101) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB4011102) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB3114389) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Security Update for Microsoft Office 2016 (KB4011126) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB3191867) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB3203482) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Security Update for Skype for Business 2016 (KB4011040) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB2920678) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Security Update for Microsoft PowerPoint 2016 (KB4011041) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft OneDrive for Business (KB3178707) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2016 (KB3115145) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Microsoft Excel MUI (English) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Excel MUI (Russian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Excel MUI (Ukrainian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft PowerPoint MUI (English) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft PowerPoint MUI (Russian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft PowerPoint MUI (Ukrainian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Publisher MUI (English) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Publisher MUI (Russian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Publisher MUI (Ukrainian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Outlook MUI (English) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Outlook MUI (Russian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Outlook MUI (Ukrainian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Word MUI (English) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Word MUI (Russian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Word MUI (Ukrainian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Office Korrekturhilfen 2016 – Deutsch": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Office Proofing Tools 2016 - English": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Outils de vérification linguistique 2016 de Microsoft Office - Français": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Средства проверки правописания Microsoft Office 2016 — русский": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Засоби перевірки правопису Microsoft Office 2016 – українська": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Herramientas de corrección de Microsoft Office 2016: español": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Office Proofing (English) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Office Proofing (Russian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Office Proofing (Ukrainian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Office Shared MUI (English) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Office Shared MUI (Russian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Office Shared MUI (Ukrainian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft OneNote MUI (English) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft OneNote MUI (Russian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft OneNote MUI (Ukrainian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Groove MUI (English) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Groove MUI (Russian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Groove MUI (Ukrainian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Office 32-bit Components 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Office Shared 32-bit MUI (English) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Office Shared 32-bit MUI (Russian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Office Shared 32-bit MUI (Ukrainian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Office OSM MUI (English) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Office OSM MUI (Russian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Office OSM MUI (Ukrainian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Office OSM UX MUI (English) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Office OSM UX MUI (Russian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Office OSM UX MUI (Ukrainian) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Office Shared Setup Metadata MUI (English) 2016": {
+        "version": "16.0.4266.1001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180124"
+      },
+      "Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20171128"
+      },
+      "Oracle VM VirtualBox 5.2.16": {
+        "version": "5.2.16",
+        "publisher": "Oracle Corporation",
+        "installdate": "20180722"
+      },
+      "Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20171128"
+      },
+      "Ansel": {
+        "version": "387.92",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA Control Panel 387.92": {
+        "version": "387.92",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20180617"
+      },
+      "NVIDIA GeForce Experience 3.9.0.97": {
+        "version": "3.9.0.97",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA Optimus Update 28.0.0.0": {
+        "version": "28.0.0.0",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA PhysX System Software 9.17.0524": {
+        "version": "9.17.0524",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA Update 28.0.0.0": {
+        "version": "28.0.0.0",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA SHIELD Streaming": {
+        "version": "7.1.0400",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA Install Application": {
+        "version": "2.1002.257.2218",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20180617"
+      },
+      "NVIDIA Backend": {
+        "version": "28.0.0.0",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA Container": {
+        "version": "1.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA TelemetryApi helper for NvContainer": {
+        "version": "1.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA LocalSystem Container": {
+        "version": "1.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA Message Bus for NvContainer": {
+        "version": "1.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA NetworkService Container": {
+        "version": "1.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA Session Container": {
+        "version": "1.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA User Container": {
+        "version": "1.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA Display Container": {
+        "version": "1.2",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20180617"
+      },
+      "NVIDIA Display Container LS": {
+        "version": "1.2",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20180617"
+      },
+      "NVIDIA Display Watchdog Plugin": {
+        "version": "1.2",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20180617"
+      },
+      "NVIDIA Display Session Container": {
+        "version": "1.2",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20180617"
+      },
+      "NVIDIA NodeJS": {
+        "version": "3.9.0.97",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA Watchdog Plugin for NvContainer": {
+        "version": "1.6",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA Telemetry Client": {
+        "version": "4.2.2.0",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA Telemetry Container": {
+        "version": "4.2.2.0",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA Virtual Host Controller": {
+        "version": "2.02.0.5",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "Nvidia Share": {
+        "version": "3.9.0.97",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA ShadowPlay 3.9.0.97": {
+        "version": "3.9.0.97",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA SHIELD Wireless Controller Driver": {
+        "version": "3.9.0.97",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA Update Core": {
+        "version": "28.0.0.0",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "NVIDIA Virtual Audio 3.90.1": {
+        "version": "3.90.1",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20171128"
+      },
+      "VNC Server 6.2.1": {
+        "version": "6.2.1.32538",
+        "publisher": "RealVNC Ltd",
+        "installdate": "20180529"
+      },
+      "Office Tab": {
+        "version": "11.00",
+        "publisher": "Addin Technology Inc.",
+        "installdate": "20180125"
+      },
+      "Microsoft Visual Studio Code": {
+        "version": "1.25.1",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180801"
+      },
+      "Go Programming Language amd64 go1.10.3": {
+        "version": "1.10.3",
+        "publisher": "https://golang.org",
+        "installdate": "20180611"
+      },
+      "Chef Client v14.3.37": {
+        "version": "14.3.37.1",
+        "publisher": "Chef Software, Inc.",
+        "installdate": "20180809"
+      },
+      "Node.js": {
+        "version": "8.11.1",
+        "publisher": "Node.js Foundation",
+        "installdate": "20180420"
+      },
+      "AVG AntiVirus FREE": {
+        "version": "18.5.3059",
+        "publisher": "AVG Technologies"
+      },
+      "Freemake Video Converter version 4.1.10.0": {
+        "version": "4.1.10.0",
+        "publisher": "Ellora Assets Corporation",
+        "installdate": "20180402"
+      },
+      "Google Chrome": {
+        "version": "68.0.3440.106",
+        "publisher": "Google Inc.",
+        "installdate": "20180223"
+      },
+      "i686-8.1.0-posix-dwarf-rt_v6-rev0": {
+        "publisher": "MinGW-W64"
+      },
+      "IntelliJ IDEA 2018.1.4": {
+        "version": "181.5087.20",
+        "publisher": "JetBrains s.r.o."
+      },
+      "NordVPN": {
+        "version": "6.14.31",
+        "publisher": "NordVPN",
+        "installdate": "20180702"
+      },
+      "Smart Update v3.1.5": {
+        "version": "v3.1.5",
+        "publisher": "GIGABYTE TECHNOLOGY CO.,LTD."
+      },
+      "TDM-GCC": {
+        "version": "1.1309.0",
+        "publisher": "TDM"
+      },
+      "VLC media player": {
+        "version": "3.0.0",
+        "publisher": "VideoLAN"
+      },
+      "VNC Viewer Plus 1.2.11": {
+        "version": "1.2.11",
+        "publisher": "RealVNC Ltd",
+        "installdate": "20180529"
+      },
+      "AmCap version 9.01": {
+        "version": "9.01",
+        "publisher": "Gigabyte, Inc.",
+        "installdate": "20171128"
+      },
+      "SD Card Formatter": {
+        "version": "5.0.0",
+        "publisher": "SD Association",
+        "installdate": "20180526"
+      },
+      "Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20171128"
+      },
+      "Microsoft Visual C++ 2010  x86 Redistributable - 10.0.30319": {
+        "version": "10.0.30319",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20171128"
+      },
+      "Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4148": {
+        "version": "9.0.30729.4148",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20171128"
+      },
+      "Control Center 5.0001.2.68": {
+        "version": "5.0001.2.68",
+        "installdate": "20171128"
+      },
+      "Java Auto Updater": {
+        "version": "2.8.171.11",
+        "publisher": "Oracle Corporation",
+        "installdate": "20180620"
+      },
+      "Realtek Card Reader": {
+        "version": "10.0.15063.29094",
+        "publisher": "Realtek Semiconductor Corp.",
+        "installdate": "20171128"
+      },
+      "Airplane Mode Hid Installer": {
+        "version": "5.0.0.2",
+        "installdate": "20171128"
+      },
+      "Google Update Helper": {
+        "version": "1.3.33.17",
+        "publisher": "Google Inc.",
+        "installdate": "20180518"
+      },
+      "Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.51106": {
+        "version": "11.0.51106.1",
+        "publisher": "Microsoft Corporation"
+      },
+      "Vagrant": {
+        "version": "2.1.2",
+        "publisher": "HashiCorp",
+        "installdate": "20180722"
+      },
+      "Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.21005": {
+        "version": "12.0.21005.1",
+        "publisher": "Microsoft Corporation"
+      },
+      "NordVPN network TAP": {
+        "version": "1.0.1",
+        "publisher": "NordVPN",
+        "installdate": "20180702"
+      },
+      "REALTEK Bluetooth Driver": {
+        "version": "3.886.880.031116",
+        "publisher": "REALTEK Semiconductor Corp.",
+        "installdate": "20171128"
+      },
+      "Adobe Refresh Manager": {
+        "version": "1.8.0",
+        "publisher": "Adobe Systems Incorporated",
+        "installdate": "20180710"
+      },
+      "Adobe Reader XI (11.0.23)": {
+        "version": "11.0.23",
+        "publisher": "Adobe Systems Incorporated",
+        "installdate": "20180308"
+      },
+      "Sound Blaster Cinema 2": {
+        "version": "1.00.13",
+        "publisher": "Creative Technology Limited"
+      },
+      "Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.21005": {
+        "version": "12.0.21005.1",
+        "publisher": "Microsoft Corporation"
+      },
+      "Intel(R) Processor Graphics": {
+        "version": "20.19.15.4390",
+        "publisher": "Intel Corporation"
+      },
+      "Realtek High Definition Audio Driver": {
+        "version": "6.0.1.7743",
+        "publisher": "Realtek Semiconductor Corp.",
+        "installdate": "20171128"
+      },
+      "Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20171128"
+      }
+    },
+    "root_group": "Administrators",
+    "shard_seed": 203646069,
+    "time": {
+      "timezone": "South Africa Standard Time"
+    },
+    "chef_guid": "45dd4e2c-265f-483e-a6f6-9bec9058483c",
+    "name": "giga",
+    "chef_environment": "_default",
+    "recipes": [
+      "multi_chain",
+      "multi_chain::default",
+      "multi_chain::connect"
+    ],
+    "expanded_run_list": [
+      "multi_chain::default",
+      "multi_chain::connect"
+    ],
+    "roles": [
+
+    ],
+    "cookbooks": {
+      "multi_chain": {
+        "version": "0.0.0"
+      }
+    }
+  },
+  "run_list": [
+    "recipe[multi_chain]",
+    "recipe[multi_chain::connect]"
+  ]
+}

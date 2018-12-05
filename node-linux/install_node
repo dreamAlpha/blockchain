@@ -1,0 +1,9 @@
+#!/bin/bash
+#clear
+#echo "Environments List"
+#echo "-----------------"
+#ls -1 environments | sed -e 's/\..*$//'
+#echo -n "Select the environment: "
+#read environment
+#sudo chef-solo -c solo.rb -j node.json  -E $environment
+sudo chef-solo -c solo.rb -j node_connect_to_chain.json

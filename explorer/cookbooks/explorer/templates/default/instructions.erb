@@ -1,0 +1,16 @@
+
+- To load existing blockchain data into the explorer:
+
+    python -m Mce.abe --config <%= @chain_name %>.conf --commit-bytes 100000 --no-serve
+
+- To launch the explorer and serve web pages:
+
+    python -m Mce.abe --config <%= @chain_name %>.conf
+
+    in your browser visit: http://localhost:2750/
+
+- To launch the explorer on a server in the background
+
+    nohup python -m Mce.abe --config <%= @chain_name %>.conf &
+
+    in your browser visit: http://ip_address_of_server:2750/

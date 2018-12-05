@@ -1,0 +1,9 @@
+{
+    "name": "multi-chain-localhost",
+    "description": "Local multi-chain Environment",
+    "cookbook_versions": {},
+    "json_class": "Chef::Environment",
+    "chef_type": "environment",
+    "default_attributes": {},
+    "override_attributes": {}
+}

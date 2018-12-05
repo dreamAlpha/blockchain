@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Install install Chef and Ruby using the omnibus installer. 
+#rpm -ivh /vagrant/software/chef-14.1.12-1.sles11.x86_64.rpm
+
+# Add Omnibus Ruby to path
+#echo 'export PATH="/opt/chef/embedded/bin:$PATH"' >> ~/.bash_profile && source ~/.bash_profile
+
+
+curl -L https://www.opscode.com/chef/install.sh | sudo bash

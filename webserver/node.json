@@ -1,0 +1,5 @@
+{
+  "run_list": [
+     "recipe[webserver]", "recipe[webserver::apache]", "recipe[webserver::php]"
+  ]
+}
